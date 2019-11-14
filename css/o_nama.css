@@ -1,0 +1,27 @@
+a .pocetna{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.o_nama a{
+  color: #51EA5E;
+}
+p{
+  color: white;
+}
+h2{
+  color: #51EA5E;
+  font-size: 30px;
+}
+.galerija{
+  margin: 10px 50px;
+}
+.galerija img{
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+.galerija img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}

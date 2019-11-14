@@ -126,12 +126,12 @@ ul li a:hover{
     height: 500px;
     overflow: hidden;
     background-color: #556f88;
-padding: 10px;
-margin: 5px auto;
-border-radius: 20px;
-border-style: solid;
-border-color: #2d445b;
-position: relative;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #2d445b;
+    position: relative;
 }
 .centralni_deo .proizvod img{
     width: 175px;

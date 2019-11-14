@@ -1,0 +1,55 @@
+
+ul
+{
+    list-style-type:  none;
+}
+ul li
+{
+    display: inline-block;
+    width: 20%;
+    background-color: #14a4f4;
+    height: 40px;
+}
+ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 5 0 ;
+}
+.hamburger
+{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+
+@media only screen and (max-width:1024px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}

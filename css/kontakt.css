@@ -1,0 +1,36 @@
+form{
+    width: 500px;
+    float: left;
+}
+form label{
+    display: block;
+    margin: 10px 0;
+}
+form input{
+    width: 100% ;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+form textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    padding: 10px;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.map{
+    width:600px;
+    float: left;
+    margin-left: 110px;
+    margin-top:40px;
+}
+footer{
+    clear: both;
+}
